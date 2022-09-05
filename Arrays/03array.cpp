@@ -9,18 +9,13 @@ using namespace std;
 #define loop(a, b, c) for (int(a) = (b); (a) < (c); ++(a))
 typedef long long LL;
 
-// study on vectors
 int main() {
-  // Lets Study Again
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
-  vector<int> data = {10, 20, 30};
-  for (auto x : data)
-    cout << x << " ";
-  cout << endl;
-  // adds 100 to the end of the array
-  data.emplace(data.begin() + 1, 100);
-
-  for (auto x : data)
-    cout << x << " ";
+  int arr[] = {1, 2, 3, 4, 5};
+  int n = sizeof(arr) / sizeof(arr[0]);
+  for (int i = n - 1; i >= 0; i--) {
+    cout << arr[i] << " ";
+  }
 }
+
