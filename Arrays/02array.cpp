@@ -32,7 +32,7 @@ int main() {
   cin >> key;
   int index = binarySearch(arr, n, key);
   if (index != -1)
-    cout << key << " is present at index " << index << endl;
+    cout << key << " is present at position" << index << endl;
   else
     cout << key << " is not present" << endl;
 }
