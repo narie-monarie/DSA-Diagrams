@@ -1,5 +1,5 @@
-public class LinkedList {
-    public class Node {
+public class Main{
+     class Node {
         public Node next;
         public int val;
 
@@ -8,7 +8,7 @@ public class LinkedList {
         }
     }
 
-    static class LinkedLister {
+    public class LinkedList {
         Node head;
 
         public void append(int val) {
@@ -18,9 +18,13 @@ public class LinkedList {
             }
             current.next = new Node(val);
         }
+
+        public void prepend(int val){
+        }
     }
 
     public static void Main(String[] args) {
-        System.out.println(0);
+        System.out.println(); 
+        
     }
 }
