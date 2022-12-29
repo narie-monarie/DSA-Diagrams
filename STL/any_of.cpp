@@ -13,7 +13,7 @@ int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   vector<int> v = {1, 2, 3, 4, 5};
-  if (any_of(v.begin(), v.end(), [](int i) { return i < 3; }))
+  if (any_of(v.begin(), v.end(), [](int i) { return i < 3; })) //lambda expression
     cout << "hallo"
          << " ";
   return 0;
